@@ -11,213 +11,370 @@
 -->
 <!DOCTYPE html>
 <html lang="en" class="sr">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.png"/>
 
     <!-- Todo: put here your site title -->
     <title>Abed Murad | Android Engineer</title>
     <!-- Todo: add some coding keywords below - e.g: (javascript, yourusername, etc) -->
-    <meta name="keywords" content="abed-murad, Abed Murad, Android" />
+    <meta name="keywords" content="abed-murad, Abed Murad, Android"/>
     <!-- Todo: improve your SEO by adding a small description of you -->
-    <meta name="description" content="Abed Murad | Android Engineer" />
+    <meta name="description" content="Abed Murad | Android Engineer"/>
 
     <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <link rel="stylesheet" href="styles.scss" />
+    <link rel="stylesheet" href="styles.scss"/>
     <script
-      defer
-      src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
+            defer
+            src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
     ></script>
 
-  </head>
+</head>
 
-  <!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
-  <body>
-    <div id="top"></div>
+<!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
+<body>
+<div id="top"></div>
 
-    <!-- **** Hero Section **** -->
-    <section id="hero" class="jumbotron">
-      <div class="container">
+<!-- **** Hero Section **** -->
+<section id="hero" class="jumbotron">
+    <div class="container">
         <h1 class="hero-title load-hidden">
-          Hey, my name is <span class="text-color-main">Abed Murad</span>
-          <br />
+            Hey, my name is <span class="text-color-main">Abed Murad</span>
+            <br/>
             I'm an Android Engineer.
         </h1>
         <p class="hero-cta load-hidden">
-          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about">More</a>
+            <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about">More</a>
         </p>
-      </div>
-    </section>
-    <!-- /END Hero Section -->
+    </div>
+</section>
+<!-- /END Hero Section -->
 
-    <!-- **** About Section **** -->
-    <section id="about">
-      <div class="container">
+<!-- **** About Section **** -->
+<section id="about">
+    <div class="container">
         <h2 class="section-title load-hidden">About me</h2>
         <div class="row about-wrapper">
-          <div class="col-md-6 col-sm-12">
-            <div class="about-wrapper__image load-hidden">
-              <img
-                alt="Profile Image"
-                class="img-fluid rounded shadow-lg"
-                height="auto"
-                width="300px"
-                src="assets/canvas.png"
-                alt="Profile Image"
-              />
+            <div class="col-md-6 col-sm-12">
+                <div class="about-wrapper__image load-hidden">
+                    <img
+                            alt="Profile Image"
+                            class="img-fluid rounded shadow-lg"
+                            height="auto"
+                            width="300px"
+                            src="assets/canvas.png"
+                            alt="Profile Image"
+                    />
+                </div>
             </div>
-          </div>
-          <div class="col-md-6 col-sm-12">
-            <div class="about-wrapper__info load-hidden">
-              <p class="about-wrapper__info-text">
-                Senior Android Engineer, with 5 years of experience engineering, testing, and maintaining robust and well- architected applications using modern tools and agile methodologies.
-              </p>
-              <p class="about-wrapper__info-text">
-                Communication and collaboration with others is the key to great work, nothing fascinating is ever built alone!              </p>
-              <span class="d-flex mt-3">
+            <div class="col-md-6 col-sm-12">
+                <div class="about-wrapper__info load-hidden">
+                    <p class="about-wrapper__info-text">
+                        Senior Android Engineer, with 5 years of experience engineering, testing, and maintaining robust
+                        and well- architected applications using modern tools and agile methodologies.
+                    </p>
+                    <p class="about-wrapper__info-text">
+                        Communication and collaboration with others is the key to great work, nothing fascinating is
+                        ever built alone! </p>
+                    <span class="d-flex mt-3">
                 <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn cta-btn--resume"
-                  href="assets/Resume-Abed-Murad-Android-Engineer.pdf"
+                        rel="noreferrer"
+                        target="_blank"
+                        class="cta-btn cta-btn--resume"
+                        href="assets/Resume-Abed-Murad-Android-Engineer.pdf"
                 >
                   View Resume
                 </a>
               </span>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-    </section>
-    <!-- /END About Section -->
+    </div>
+</section>
+<!-- /END About Section -->
 
-    <!-- **** Projects Section **** -->
-    <section id="projects">
-      <div class="container">
+<!-- **** Projects Section **** -->
+<section id="projects">
+    <div class="container">
         <div class="project-wrapper">
-          <h2 class="section-title dark-blue-text">Projects</h2>
+            <h2 class="section-title dark-blue-text">Projects</h2>
 
-          <!-- Notice: each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">AHOY Merchant</h3>
-                <div>
-                  <p class="mb-4">
-                    The AHOY Merchant app is your mobile interface to work with the AHOY platform as a merchant to dispatch and book services and perform transactions, COD and much more.
-                  </p>
+            <!-- Notice: each .row is a project -->
+            <div class="row">
+                <div class="col-lg-4 col-sm-12">
+                    <div class="project-wrapper__text load-hidden">
+                        <h3 class="project-wrapper__text-title">AHOY Merchant</h3>
+                        <div>
+                            <p class="mb-4">
+                                The AHOY Merchant app is your mobile interface to work with the AHOY platform as a
+                                merchant to dispatch and book services and perform transactions, COD and much more.
+                            </p>
+                        </div>
+                        <a rel="noreferrer"
+                           target="_blank"
+                           class="cta-btn cta-btn--hero"
+                           href="https://play.google.com/store/apps/details?id=com.theahoyapp.merchant">See Live</a>
+                    </div>
                 </div>
-                <a rel="noreferrer"
-                   target="_blank"
-                   class="cta-btn cta-btn--hero"
-                   href="https://play.google.com/store/apps/details?id=com.theahoyapp.merchant">See Live</a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="https://play.google.com/store/apps/details?id=com.theahoyapp.bounty" target="_blank">
-                  <div
-                          data-tilt
-                          data-tilt-max="4"
-                          data-tilt-glare="true"
-                          data-tilt-max-glare="0.5"
-                          class="thumbnail rounded js-tilt">
-                    <img
-                            alt="Project Image"
-                            class="img-fluid"
-                            src="assets/ahoy_merchant.png"
-                    />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- /END Project -->
-          <!-- Notice: each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">AHOY Bounty</h3>
-                <div>
-                  <p class="mb-4">
-                    The App used by ahoy bounties to do daily tasks and earn money on the platform.
-                  </p>
+                <div class="col-lg-8 col-sm-12">
+                    <div class="project-wrapper__image load-hidden">
+                        <a rel="noreferrer" href="https://play.google.com/store/apps/details?id=com.theahoyapp.bounty"
+                           target="_blank">
+                            <div
+                                    data-tilt
+                                    data-tilt-max="4"
+                                    data-tilt-glare="true"
+                                    data-tilt-max-glare="0.5"
+                                    class="thumbnail rounded js-tilt">
+                                <img
+                                        alt="Project Image"
+                                        class="img-fluid"
+                                        src="assets/ahoy_merchant.png"
+                                />
+                            </div>
+                        </a>
+                    </div>
                 </div>
-                <a rel="noreferrer"
-                   target="_blank"
-                   class="cta-btn cta-btn--hero"
-                   href="https://play.google.com/store/apps/details?id=com.theahoyapp.bounty">See Live</a>
-              </div>
             </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="https://play.google.com/store/apps/details?id=com.theahoyapp.bounty" target="_blank">
-                  <div
-                          data-tilt
-                          data-tilt-max="4"
-                          data-tilt-glare="true"
-                          data-tilt-max-glare="0.5"
-                          class="thumbnail rounded js-tilt">
-                    <img
-                            alt="Project Image"
-                            class="img-fluid"
-                            src="assets/ahoy_bounty.png"
-                    />
-                  </div>
-                </a>
-              </div>
+            <!-- /END Project -->
+            <!-- Notice: each .row is a project -->
+            <div class="row">
+                <div class="col-lg-4 col-sm-12">
+                    <div class="project-wrapper__text load-hidden">
+                        <h3 class="project-wrapper__text-title">AHOY Bounty</h3>
+                        <div>
+                            <p class="mb-4">
+                                The App used by ahoy bounties to do daily tasks and earn money on the platform.
+                            </p>
+                        </div>
+                        <a rel="noreferrer"
+                           target="_blank"
+                           class="cta-btn cta-btn--hero"
+                           href="https://play.google.com/store/apps/details?id=com.theahoyapp.bounty">See Live</a>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-sm-12">
+                    <div class="project-wrapper__image load-hidden">
+                        <a rel="noreferrer" href="https://play.google.com/store/apps/details?id=com.theahoyapp.bounty"
+                           target="_blank">
+                            <div
+                                    data-tilt
+                                    data-tilt-max="4"
+                                    data-tilt-glare="true"
+                                    data-tilt-max-glare="0.5"
+                                    class="thumbnail rounded js-tilt">
+                                <img
+                                        alt="Project Image"
+                                        class="img-fluid"
+                                        src="assets/ahoy_bounty.png"
+                                />
+                            </div>
+                        </a>
+                    </div>
+                </div>
             </div>
-          </div>
-          <!-- /END Project -->
+            <!-- /END Project -->
+            <!-- Notice: each .row is a project -->
+            <div class="row">
+                <div class="col-lg-4 col-sm-12">
+                    <div class="project-wrapper__text load-hidden">
+                        <h3 class="project-wrapper__text-title">Homoola Captain</h3>
+                        <div>
+                            <p class="mb-4">
+                                A state of the art transportation platform that provides its clients with the perfect
+                                solution for all their land transportation needs in one place.
+                            </p>
+                        </div>
+                        <a rel="noreferrer"
+                           target="_blank"
+                           class="cta-btn cta-btn--hero"
+                           href="https://play.google.com/store/apps/details?id=com.theahoyapp.bounty">See Live</a>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-sm-12">
+                    <div class="project-wrapper__image load-hidden">
+                        <a rel="noreferrer"
+                           href="https://play.google.com/store/apps/details?id=com.Homoola.HomoolaCaptain&hl=en"
+                           target="_blank">
+                            <div
+                                    data-tilt
+                                    data-tilt-max="4"
+                                    data-tilt-glare="true"
+                                    data-tilt-max-glare="0.5"
+                                    class="thumbnail rounded js-tilt">
+                                <img
+                                        alt="Project Image"
+                                        class="img-fluid"
+                                        src="assets/homoola.png"
+                                />
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- /END Project -->
+            <!-- Notice: each .row is a project -->
+            <div class="row">
+                <div class="col-lg-4 col-sm-12">
+                    <div class="project-wrapper__text load-hidden">
+                        <h3 class="project-wrapper__text-title">Fans Republic</h3>
+                        <div>
+                            <p class="mb-4">
+                                The 1st Football Social Network.. all about football in one place!
+                            </p>
+                        </div>
+                        <a rel="noreferrer"
+                           target="_blank"
+                           class="cta-btn cta-btn--hero"
+                           href="https://play.google.com/store/apps/details?id=com.theahoyapp.bounty">See Live</a>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-sm-12">
+                    <div class="project-wrapper__image load-hidden">
+                        <a rel="noreferrer" href="https://play.google.com/store/apps/details?id=com.am.fansrepublic"
+                           target="_blank">
+                            <div
+                                    data-tilt
+                                    data-tilt-max="4"
+                                    data-tilt-glare="true"
+                                    data-tilt-max-glare="0.5"
+                                    class="thumbnail rounded js-tilt">
+                                <img
+                                        alt="Project Image"
+                                        class="img-fluid"
+                                        src="assets/fans_republic.png"
+                                />
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- /END Project -->
+            <!-- Notice: each .row is a project -->
+            <div class="row">
+                <div class="col-lg-4 col-sm-12">
+                    <div class="project-wrapper__text load-hidden">
+                        <h3 class="project-wrapper__text-title">Youth Council</h3>
+                        <div>
+                            <p class="mb-4">
+                                An internal communication app for the local Youth councils.
+                            </p>
+                        </div>
+                        <a rel="noreferrer"
+                           target="_blank"
+                           class="cta-btn cta-btn--hero"
+                           href="https://play.google.com/store/apps/details?id=com.theahoyapp.bounty">See Live</a>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-sm-12">
+                    <div class="project-wrapper__image load-hidden">
+                        <a rel="noreferrer" href="https://play.google.com/store/apps/details?id=org.syfpal.application"
+                           target="_blank">
+                            <div
+                                    data-tilt
+                                    data-tilt-max="4"
+                                    data-tilt-glare="true"
+                                    data-tilt-max-glare="0.5"
+                                    class="thumbnail rounded js-tilt">
+                                <img
+                                        alt="Project Image"
+                                        class="img-fluid"
+                                        src="assets/youth_council.png"
+                                />
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- /END Project -->
+            <!-- Notice: each .row is a project -->
+            <div class="row">
+                <div class="col-lg-4 col-sm-12">
+                    <div class="project-wrapper__text load-hidden">
+                        <h3 class="project-wrapper__text-title">Carly </h3>
+                        <div>
+                            <p class="mb-4">
+                                A peer-to-peer car sharing marketplace.
+                                </br>
+                                Carly helps cars owners to hearn some extra money by ranting there cars to tenants in
+                                prices 30% lower than the car rental agencies.
+                            </p>
+                        </div>
+                        <a rel="noreferrer"
+                           target="_blank"
+                           class="cta-btn cta-btn--hero"
+                           href="https://play.google.com/store/apps/details?id=com.theahoyapp.bounty">See Live</a>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-sm-12">
+                    <div class="project-wrapper__image load-hidden">
+                        <a rel="noreferrer" href="https://github.com/Abed-Murad/carly" target="_blank">
+                            <div
+                                    data-tilt
+                                    data-tilt-max="4"
+                                    data-tilt-glare="true"
+                                    data-tilt-max-glare="0.5"
+                                    class="thumbnail rounded js-tilt">
+                                <img
+                                        alt="Project Image"
+                                        class="img-fluid"
+                                        src="assets/carly.png"
+                                />
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- /END Project -->
+
         </div>
-      </div>
-    </section>
-    <!-- /END Projects Section -->
+    </div>
+</section>
+<!-- /END Projects Section -->
 
-    <!-- **** Contact Section **** -->
-    <section id="contact">
-      <div class="container">
+<!-- **** Contact Section **** -->
+<section id="contact">
+    <div class="container">
         <h2 class="section-title">Contact</h2>
         <div class="contact-wrapper load-hidden">
-          <p class="contact-wrapper__text">Let's talk!</p>
-          <a
-            rel="noreferrer"
-            target="_blank"
-            class="cta-btn cta-btn--resume"
-            href="mailto:dev.abed.murad@gmail.com"
+            <p class="contact-wrapper__text">Let's talk!</p>
+            <a
+                    rel="noreferrer"
+                    target="_blank"
+                    class="cta-btn cta-btn--resume"
+                    href="mailto:dev.abed.murad@gmail.com"
             >Send an Email</a
-          >
+            >
         </div>
-      </div>
-    </section>
-    <!-- /END Contact Section -->
+    </div>
+</section>
+<!-- /END Contact Section -->
 
-    <!-- **** Footer Section **** -->
-    <footer class="footer navbar-static-bottom">
-      <div class="container">
+<!-- **** Footer Section **** -->
+<footer class="footer navbar-static-bottom">
+    <div class="container">
         <a rel="noreferrer" href="#top" class="back-to-top">
-          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+            <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
         </a>
         <div class="social-links">
-          <a rel="noreferrer" href="https://www.linkedin.com/in/abed-murad/" target="_blank">
-            <i class="fa fa-linkedin fa-inverse"></i>
-          </a>
-          <a rel="noreferrer" href="https://github.com/Abed-Murad" target="_blank">
-            <i class="fa fa-github fa-inverse"></i>
-          </a>
+            <a rel="noreferrer" href="https://www.linkedin.com/in/abed-murad/" target="_blank">
+                <i class="fa fa-linkedin fa-inverse"></i>
+            </a>
+            <a rel="noreferrer" href="https://github.com/Abed-Murad" target="_blank">
+                <i class="fa fa-github fa-inverse"></i>
+            </a>
         </div>
 
 
+    </div>
+</footer>
+<!-- /END Footer Section -->
 
-      </div>
-    </footer>
-    <!-- /END Footer Section -->
-
-    <script defer type="module" src="index.js"></script>
-  </body>
+<script defer type="module" src="index.js"></script>
+</body>
 </html>
